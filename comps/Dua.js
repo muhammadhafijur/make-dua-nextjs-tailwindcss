@@ -4,7 +4,7 @@ const Dua = () => {
   const [dua, setDua] = useState('Make Your Dua')
 
   const handleChange = (e) => {
-    console.log(e.target.value);
+    // console.log(e.target.value);
     setDua(e.target.value);
   };
 
@@ -14,7 +14,7 @@ const Dua = () => {
     three: "رَبِّ زِدْنِي عِلْمًا -- Rabbi zidnee ‘ilmaa",
     four: "رَبِّي اِشْرَحْلِي صَدْرِي وَ يَسِّرْلِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي -- Rabbi-isyrahli sadri, wa yassir li amri, wahlul ‘uqdatam-min lisaani yafqahu qawli",
     marriage: "رَبَّنَا هَبْ لَنَا مِنْ أَزْواجِنَا وَذُرِّيَّاتِنَا قُرَّةً أَعْيُنِنَا وَجَعَلْنَا للْمُتَّقِينَ إمَامَا -- Rabbana hablana min azwajina wa zurriyatina qurrota ‘ayunina waj'alna lil muttaqina imama.",
-    desires: "اللَّهُمَ حَبَّبْ إِلَيْنَا الْإِيمَانَ وَزَيِّنْهُ فِي قُلُوبِنَا، وَكَرِّهْ إِلَيْنَا الْكُفْرَ وَالْفُسُوقَ وَالْعِصْيَانَ، وَاجْعَلْنَا مِنَ الرَّاشِدِينَ -- ALLAHUMMA HABBIB ILAINAL IMAN WA ZAYYINHU FI QULUUBINA WA KARRIH ILAYYAL KUFRO WAL FUSUUQO WAL ‘ISHYAAN, WAJ’ALNA MINAR ROSYIDIN -- O Allah make our faith beloved to us and beautify it in our hearts and make hateful to us disbelief, wickedness and disobedience. And make us of the rightly guided.",
+    desires: "اللَّهُمَ حَبَّبْ إِلَيْنَا الْإِيمَانَ وَزَيِّنْهُ فِي قُلُوبِنَا، وَكَرِّهْ إِلَيْنَا الْكُفْرَ وَالْفُسُوقَ وَالْعِصْيَانَ، وَاجْعَلْنَا مِنَ الرَّاشِدِينَ -- ALLAHUMMA HABBIB ILAINAL IMAN WA ZAYYINHU FI QULUUBINA WA KARRIH ILAYNAL KUFRO WAL FUSUUQO WAL ‘ISHYAAN, WAJ’ALNA MINAR ROSYIDIN -- O Allah make our faith beloved to us and beautify it in our hearts and make hateful to us disbelief, wickedness and disobedience. And make us of the rightly guided.",
     hardship: "حَسْبِيَ اللَّهُ لآ إلَهَ إلَّا هُوَ، عَلَيْهَ توَكَّلتُ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ -- HasbiyAllahu la illaha illa Huwa, ‘alayhi tawakkaltu, wa Huwa Rabbul arshil azim",
     
   };
